@@ -1,6 +1,8 @@
 # C-call-graph-producer
 通过cflow，tree2dotx，graphviz创建c语言文件的函数调用关系图，并集成为一条命令
 
+tree2dotx.sh 转自https://blog.csdn.net/lyndon_li/article/details/122163468
+
 *等待添加功能：检查文件是否存在*
 
 ## 使用方法
