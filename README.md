@@ -15,7 +15,7 @@ tree2dotx.sh 转自[CSDN-cflow——C语言函数调用关系生成器](https://
 **带星号(\*)的是默认选项**
 
 ```
-cgraph [-a <NUM>] [-d <NUM>] [-e <NUM>] [-r <NUM>] [-f <file1 file2...>] [-T <TYPE>] [-o <NAME>] [-h]
+cgraph [-a <NUM>] [-d <NUM>] [-e <NUM>] [-r <NUM>] [-f <file1 file2...>] [-m <MODE>] [-T <TYPE>] [-o <NAME>] [-h]
 ```
 
 ***-a [NUM] :***
