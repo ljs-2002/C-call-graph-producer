@@ -49,6 +49,16 @@ cgraph [-a <NUM>] [-d <NUM>] [-e <NUM>] [-r <NUM>] [-f <file1 file2...>] [-T <TY
 ***-f (filename1   filename 2...) :***
 
            The files you want to produce call graph, default: all .c file in the folder
+***-m [MODE] :***
+
+| **MODE** | **description** |
+| ------- | ------- |
+|     **dot**    |    **Digraph (layering)(\*)**     |
+|      neato   |    Based on spring-model    |
+|     twopi    |    Radial layout    |
+|     circo   |    Circle layout    |
+|   fdp   |   Undigraph   |
+|   patchwork   |   Square tree   |
            
 ***-T [TYPE] :***
 
