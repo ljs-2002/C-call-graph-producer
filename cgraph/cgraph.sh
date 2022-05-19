@@ -2,7 +2,7 @@
 
 function usage
 {
-    echo ""
+    echo "$*"
     echo "usage: cgraph [-a <NUM>] [-d <NUM>] [-e <NUM>] [-r <NUM>] [-f <file1 file2...>] [-T <TYPE>] [-o <NAME>] [-h]"
     echo ""
     echo "-a [NUM] :"
