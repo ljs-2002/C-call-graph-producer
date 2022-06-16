@@ -7,8 +7,10 @@ tree2dotx.sh 转自[CSDN-cflow——C语言函数调用关系生成器](https://
 
 ## 目录
 
-- [使用方法](#使用方法)
-- [使用示例](#使用示例)
+- [C-call-graph-producer](#c-call-graph-producer)
+  - [目录](#目录)
+  - [使用方法](#使用方法)
+  - [使用示例](#使用示例)
 
 ## 使用方法
 
@@ -46,9 +48,10 @@ cgraph [-a <NUM>] [-d <NUM>] [-e <NUM>] [-r <NUM>] [-f <file1 file2...>] [-m <MO
 |     0    |    Disable output in the order in which the functions appear     |
 |     **1**    |    **Enable output in the order in which the functions appear(\*)**    |
      
-***-f (filename1   filename 2...) :***
+***-f [filename]:***
 
            The files you want to produce call graph, default: all .c file in the folder
+           use "filename1 filename2" to set multiple files as input
 ***-m [MODE] :***
 
 | **MODE** | **description** |
