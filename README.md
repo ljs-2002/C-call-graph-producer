@@ -1,4 +1,7 @@
 # C-call-graph-producer
+
+[![Security Status](https://s.murphysec.com/badge/ljs-2002/C-call-graph-producer.svg)](https://www.murphysec.com/p/ljs-2002/C-call-graph-producer)
+
 通过cflow，tree2dotx，graphviz创建c语言文件的函数调用关系图，并集成为一条命令
 
 tree2dotx.sh 转自[CSDN-cflow——C语言函数调用关系生成器](https://blog.csdn.net/lyndon_li/article/details/122163468)
